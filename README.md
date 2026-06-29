@@ -1,3 +1,8 @@
+<p align="center">
+  <img src="assets/logo.png" alt="App Icon" width="150" height="150">
+</p>
+
+
 # Smart Menu
 
 Utilidades de Windows desde la **bandeja del sistema**, pensadas para ir creciendo con más
