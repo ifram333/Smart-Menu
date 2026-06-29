@@ -1,0 +1,6 @@
+# Dependencias de ejecución
+Pillow>=10.0.0
+PySide6>=6.7
+
+# Solo para empaquetar a .exe (lo usa build.ps1); no es necesario para ejecutar la app
+pyinstaller>=6.0.0

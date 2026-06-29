@@ -1,0 +1,14 @@
+# PyInstaller
+/build/
+/dist/
+*.spec.bak
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Editores / SO
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini

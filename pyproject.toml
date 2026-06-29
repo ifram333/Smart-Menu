@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "smart-menu"
+description = "Utilidades de Windows desde la bandeja del sistema: mantener despierto, atenuar pantalla, hotkeys globales e historial de portapapeles."
+readme = "README.md"
+license = "GPL-3.0-or-later"
+license-files = ["LICENSE"]
+authors = [{ name = "Iván Ramírez" }]
+requires-python = ">=3.10"
+dynamic = ["version"]
+dependencies = [
+    "PySide6>=6.7",
+    "Pillow>=10.0.0",
+]
+classifiers = [
+    "Private :: Do Not Upload",
+    "Environment :: Win32 (MS Windows)",
+    "Operating System :: Microsoft :: Windows",
+    "Programming Language :: Python :: 3",
+]
+
+[project.optional-dependencies]
+build = ["pyinstaller>=6.0.0"]
+
+# Crea el comando `smart-menu` (sin consola) al instalar el paquete.
+[project.gui-scripts]
+smart-menu = "smart_menu.app:main"
+
+[tool.setuptools]
+packages = ["smart_menu"]
+
+# La versión se toma de smart_menu/__init__.py (única fuente de verdad).
+[tool.setuptools.dynamic]
+version = { attr = "smart_menu.__version__" }
