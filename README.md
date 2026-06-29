@@ -9,6 +9,10 @@ Utilidades de Windows desde la **bandeja del sistema**, pensadas para ir crecien
 funciones. Al hacer clic en el ícono se despliega, **junto al cursor**, un panel flotante
 moderno.
 
+<p align="center">
+  <img src="images/menu.png" alt="Main Menu">
+</p>
+
 ## Funciones
 
 ### Keep Awake
@@ -43,6 +47,10 @@ moderno.
   - **Ctrl+Alt+V** — abrir el historial de portapapeles.
   - **Ctrl+Alt+↑ / Ctrl+Alt+↓** — subir/bajar la atenuación del monitor bajo el cursor.
 
+<p align="center">
+  <img src="images/preferences.png" alt="Preferences Menu">
+</p>
+
 ### Historial de portapapeles
 - Guarda los últimos **N** elementos copiados (**texto e imágenes**), accesible desde el panel
   ("Abrir historial") o con su hotkey. Elegir un elemento lo vuelve a copiar; con **Auto-pegar**
@@ -51,6 +59,10 @@ moderno.
   **profundidad** (5–200) con un deslizador.
 - **Persiste** entre reinicios en `%APPDATA%\Smart Menu` (texto en JSON, imágenes en PNG). Sin
   duplicados: volver a copiar algo lo mueve arriba.
+
+<p align="center">
+  <img src="images/clipboard.png" alt="Clipbiard Menu">
+</p>
 
 ## Interacción
 
